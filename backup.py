@@ -10,10 +10,10 @@ from selenium.webdriver.chrome.options import Options # type: ignore
 
 from bs4 import BeautifulSoup # type: ignore
 
+UID = sys.argv[1]
+
 driver = webdriver.Chrome(executable_path='/usr/lib/chromium-browser/chromedriver')
 
-
-UID = sys.argv[1]
 
 # arbitrary
 TO = '2100-01-01'
